@@ -17,7 +17,7 @@ const Main = ({ name }) => {
     return (
         <div className={classes.root}>
             <MessageList />
-            <MessageInputField name={NearMe} />
+            <MessageInputField name={name} />
         </div>
     )
 };
