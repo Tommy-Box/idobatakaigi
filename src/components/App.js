@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import SignIn from './SignIn';
 
 export default () => {
-  const [name, setNmae] = useState('');
+  const [name, setName] = useState('');
   console.log(name);
 
-  return <SignIn setNmae={setName} />;
+  return <SignIn setName={setName} />;
 };
